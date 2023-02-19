@@ -1,0 +1,74 @@
+/*Parte de la practica 6*/
+.banner {
+    border: 1;
+    margin: 0;
+    padding: 20px 10px 40px;
+    border-collapse: collapse;
+    background-color: #15236F;
+    color:white
+}
+
+body{
+    background-attachment: #665959;
+    font-family: 'arial';
+    font-size: 18px;
+    background-color: #030100;
+}
+td {
+    vertical-align: text-top;
+}
+
+div {
+    color: #000;
+    height: 100%;
+    padding: 20px 10px 40px;
+    margin: 10px;
+    background-color: #9B82D9;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 5px #9B82D9;
+}
+
+a{
+    text-decoration: none;
+    color: #29165b;
+}
+
+/*Parte de la pravtica 7*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    height: 60px;
+}
+
+ul li a{
+    height: 60px;
+    background-color: #b9a1f7;
+    display: block;
+    border-left: 10px solid #cdb9ff;
+    border-right: 5px ;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover{
+    margin: 0.5px;
+    color: #221f1f;
+    background-color: #baa4f3;
+    box-shadow: 10px 10px 20px #a4bdf3;
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: Top;
+}
